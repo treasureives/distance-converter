@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.container {
+    background-color: rgb(224, 253, 221);
+    margin: 0 auto;
+    width: 500px;
+    padding: 20px 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.instructions {
+    text-align: center;
+    font-family: arial;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.form {
+    text-align: center;
+}
